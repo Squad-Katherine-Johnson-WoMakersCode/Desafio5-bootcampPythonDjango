@@ -13,43 +13,20 @@
 
 # Divisão de atividades 
 
-A líder do squad dividiu igualmente as atividades do desafio 1 e 2. As atividades do desafio 3 e 4 foram divididas de forma aleatória mas ainda de forma que fique justa para todas. Todas aprovaram a divisão feita. Antes disso, foi discutido em chamada alternativas para a divisão das atividades.
+A líder do squad dividiu as atividades para o desafio 5 de acordo com o que foi discutido em reunião com o squad para a divisão das atividades.
+O planejamento da atividade seguiu também a partir da reunião do squad para montar uma modelagem do sistema. As decisões tomadas foram de senso comum a todas as integrantes. Apesar de todas terem suas atividades no desafio, todas tiveram o compromisso de revisar e contribuir com o código.
 
-Desafio 1
-Questões:
-- 1 e 2 Milena Madeira Muchenski
-- 3 Amparo Silvia Pastor Castillo Runschka  
-- 4 Rayane Daryl De Carvalho Pantoja 
-- 5 Sarah Georgia de O. F. Moreira 
-- 6 Evelyn Suzarte Fernandes 
-- 7 Julia Chaves Silva 
-- 8 Helena Sanches 
-- 9 Andressa Lima Colares 
-- 10 Victória Carmen Nagi Simões 
+## Criação de classes
 
-Desafio 2
-- 1 e 2 Evelyn Suzarte Fernandes 
-- 3 Julia Chaves Silva 
-- 4 Rayane Daryl De Carvalho Pantoja 
-- 5 Sarah Georgia de O. F. Moreira 
-- 6 Amparo Silvia Pastor Castillo Runschka 
-- 7 Milena Madeira Muchenski 
-- 8 Victória Carmen Nagi Simões 
-- 9 Helena Sanches 
-- 10 Andressa Lima Colares 
+- cliente - Victória 
+- mercado - Andressa 
+- fornecedor - Amparo 
+- produto - Evelyn 
+- transação - Helena 
 
-Desafio 3
-- 1 Julia Chaves Silva 
-- 2 Rayane Daryl De Carvalho Pantoja 
-- 3 Sarah Georgia de O. F. Moreira 
-- 4 Amparo Silvia Pastor Castillo Runschka  
-- 5 Milena Madeira Muchenski 
-- 6 Victória Carmen Nagi Simões 
+Criação da main: 
+- instâncias de classes - Julia e Sarah 
+- criar funções do sistema - Milena e Rayane 
 
-Desafio 4
-- 1 Helena Sanches 
-- 2 Andressa Lima Colares 
-- 3 Evelyn Suzarte Fernandes 
-- 4 Julia Chaves Silva 
-- 5 Rayane Daryl De Carvalho Pantoja 
-- 6 Sarah Georgia de O. F. Moreira
+
+
