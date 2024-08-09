@@ -24,7 +24,7 @@ O planejamento da atividade seguiu também a partir da reunião do squad para mo
 - produto - Evelyn 
 - transação - Helena 
 
-Criação da main: 
+## Criação da main: 
 - instâncias de classes - Julia e Sarah 
 - criar funções do sistema - Milena e Rayane 
 
