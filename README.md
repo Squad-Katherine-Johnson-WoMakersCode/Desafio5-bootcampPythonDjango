@@ -7,7 +7,7 @@
 - Julia Chaves Silva
 - Milena Madeira Muchenski
 - Rayane Daryl de Carvalho Pantoja
-- Sarah Georgia de Oliveira
+- Sarah Georgia de Oliveira*
 - Victória Carmen Nagi Simões
 
 
@@ -25,7 +25,7 @@ O planejamento da atividade seguiu também a partir da reunião do squad para mo
 - transação - Helena 
 
 ## Criação da main: 
-- instâncias de classes - Julia e Sarah 
+- instâncias de classes - Julia e Sarah* 
 - criar funções do sistema - Milena e Rayane 
 
 
