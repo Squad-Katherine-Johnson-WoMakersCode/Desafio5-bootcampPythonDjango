@@ -1,17 +1,9 @@
-produto
-    nome
-    categoria
-    quantidade
-    fornecedor (classe)(lista de fornecedor)
-        método diminuir estoque
-
-
 class Produto:
     def __init__(self, nome, categoria, quantidade, fornecedor):
         self.nome = ""
         self.categoria = ""
         self.quantidade = 0
-        self.fornecedor = []
+        self.fornecedor = [] #lista de fornecedores
 
     def get_nome(self):
         return self.nome
@@ -25,6 +17,6 @@ class Produto:
     def get_fornecedor(self):
         return self.fornecedor
 
-    def diminuir_estoque(self):
-    
+    def diminuir_estoque(self, diminuir):
+        self.quantidade = self.quantidade - diminuir
     
