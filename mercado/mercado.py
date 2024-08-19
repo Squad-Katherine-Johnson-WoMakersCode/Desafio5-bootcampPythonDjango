@@ -1,5 +1,5 @@
-from cliente import Cliente
-from transacao import Transacao
+from cliente.cliente import Cliente
+from transacao.transacao import Transacao
 class Mercado:
     def __init__(self, nome):
         self.__nome = nome
@@ -32,3 +32,9 @@ class Mercado:
         transacao = Transacao(cliente, produto, quantidade)
         self.__transacoes.append(transacao)
         return transacao  
+
+    def listar_clientes(self):
+        return self.__clientes
+    
+    def listar_transacoes(self):
+        return self.__transacoes

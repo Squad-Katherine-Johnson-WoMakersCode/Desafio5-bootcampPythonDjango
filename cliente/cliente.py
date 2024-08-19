@@ -13,3 +13,5 @@ class Cliente:
     def get_endereco(self):
         return self.endereco
 
+    def __str__(self) -> str:
+        return f"Nome: {self.nome}, Telefone: {self.telefone}, Endereço: {self.endereco}"
