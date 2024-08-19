@@ -5,35 +5,36 @@ from produto.produto import Produto
 from transacao.transacao import Transacao
 
 def instanciar_clientes():
-    cliente1 = Cliente()
-    cliente2 = Cliente()
-    cliente3 = Cliente()
+    cliente1 = Cliente(nome="Pedro Gonçalves", telefone="9999-9999", endereco="Rua A, 123")
+    cliente2 = Cliente(nome="Luiza Oliveira", telefone="8888-8888", endereco="Rua B, 456")
+    cliente3 = Cliente(nome="Carolina Souza", telefone="7777-7777", endereco="Rua C, 789")
     
     return cliente1, cliente2, cliente3
 
-def instanciar_produtos():
-    produto1 = Produto()
-    produto2 = Produto()
-    produto3 = Produto()
+def instanciar_produtos(fornecedores):
+    produto1 = Produto(nome="Arroz", categoria="Alimentos", quantidade=50, fornecedores=fornecedores)
+    produto2 = Produto(nome="Feijão", categoria="Alimentos", quantidade=30, fornecedores=fornecedores)
+    produto3 = Produto(nome="Macarrão", categoria="Alimentos", quantidade=100, fornecedores=fornecedores)
     
     return produto1, produto2, produto3
 
 def instanciar_fornecedores():
-    fornecedor1 = Fornecedor()
-    fornecedor2 = Fornecedor()
-    fornecedor3 = Fornecedor() 
+    fornecedor1 = Fornecedor(nome="Fornecedor A")
+    fornecedor2 = Fornecedor(nome="Fornecedor B")
+    fornecedor3 = Fornecedor(nome="Fornecedor C")
 
     return fornecedor1, fornecedor2, fornecedor3
 
 def instanciar_mercado():
     cliente1, cliente2, cliente3 = instanciar_clientes()
-    produto1, produto2, produto3 = instanciar_produtos()
+    fornecedores = instanciar_fornecedores()
+    produto1, produto2, produto3 = instanciar_produtos(fornecedores)
 
-    transacao1 = Transacao(cliente1, produto1, 2)
-    transacao2 = Transacao(cliente2, produto2, 3)
-    transacao3 = Transacao(cliente3, produto3, 1)
+    transacao1 = Transacao(data="2024-08-19", cliente=cliente1, produto=produto1, quantidade=2)
+    transacao2 = Transacao(data="2024-08-19", cliente=cliente2, produto=produto2, quantidade=3)
+    transacao3 = Transacao(data="2024-08-19", cliente=cliente3, produto=produto3, quantidade=1)
     
-    mercado = Mercado("Mercearia da Esquina")
+    mercado = Mercado(nome="Mercearia da Esquina")
     
     mercado.adicionar_cliente(cliente1)
     mercado.adicionar_cliente(cliente2)
@@ -48,8 +49,11 @@ def instanciar_mercado():
 def main():
     mercado = instanciar_mercado()
     print("\nCLIENTES:\n")
-    print(mercado.listar_clientes())
+    for cliente in mercado.listar_clientes():
+        print(cliente)
+        
     print("\nTRANSAÇÕES:\n")
-    print(mercado.listar_transacoes())
+    for transacao in mercado.listar_transacoes():
+        print(transacao)
 
 main()
